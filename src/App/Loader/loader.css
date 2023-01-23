@@ -1,0 +1,24 @@
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    margin: 25% 40% 10% 40%;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #4678a3; /* Light grey */
+    border-top: 10px solid #241b7b; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+  .loader-text{
+    margin-left: 30%;
+    color: #241b7b;
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: 10px;
+  }
